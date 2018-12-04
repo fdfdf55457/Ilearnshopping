@@ -6,7 +6,7 @@
 ######     git config --global username "你的用户名"
 #### 2）配置邮箱
 ######      git config --global user.email "你的邮箱"
-####3）编码配置 
+#### 3）编码配置 
 ######   避免git gui中的中文乱码
 ######     git config --global gui.encoding utf-8
 ######   避免 git status 显示的中文文件名乱码
@@ -37,11 +37,13 @@
 ###### 8）git checkout -b dev 创建分支并切换到dev分支
 ###### 9）git checkout 分支名
 ######  10）git pull 拉取
-######   11）git push -u origin master
+######   11）git push -u origin master 提交
 ######   12)分支合并 git merge branchname
 #### git提交到远程仓库
 ##### 关联：git remote add origin "远程仓库地址"
 ##### 第一次想远程仓库推送：git push -u -f origin master
 ##### 以后提交到远程：git push origin master
 #### 项目提交到github
-##### git add .:提交所有
+##### git add .:提交所有 
+##### git commit -m "描述"：提交到本地仓库
+##### 然后 git push 提交
