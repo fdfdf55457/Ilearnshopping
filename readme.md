@@ -47,3 +47,8 @@
 ##### git add .:提交所有 
 ##### git commit -m "描述"：提交到本地仓库
 ##### 然后 git push 提交
+### 删除远程仓库的文件
+##### 1.git pull origin master
+##### 2.git rm -f --cached "文件名"
+##### 3.git commit -m "描述"
+##### 4.git push -u origin master
