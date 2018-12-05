@@ -283,3 +283,15 @@ create table newbee_shopping(
 ##### 搭建ssm框架
 ##### 引入依赖包
 ##### springMVC框架其实就是管理controller，所以扫描注解的时候只扫描controller包中的就可以了
+### mybatis-generator
+##### 自动生成数据库交互代码
+###### 1、pom中配置
+###### 2、配置generotorConfig.xml
+### 搭建ssm框架
+##### 1、pom.xml
+#####  2、添加配置文件
+###### 1）spring配置文件
+###### 2）spring MVC配置文件
+###### 3）mybatis配置文件
+###### 4）web.xml
+#####  3、使用框架
